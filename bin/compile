@@ -20,6 +20,6 @@ export_env_dir() {
 export_env_dir "$env_dir"
 
 echo "-----> Found a Makefile"
-cd "$build_dir"
+cd "$build_dir/heroku"
 
 make
